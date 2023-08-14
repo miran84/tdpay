@@ -11,7 +11,7 @@ $(function() {
     		var gp_arr_key;
     		var i = 0 ; 
     		
-    	    $("input[name=gp_menu_id]").each(function(){
+    	    $("input[name=menu_id]").each(function(){
     	    	if($(this).is(":checked")){
 	        		if(i == 0) {
 	        			gp_arr_key = $(this).attr("key").split(",");
@@ -22,7 +22,7 @@ $(function() {
 	        	}
     	    });
 
-			console.log(gp_arr_key);
+			//console.log(gp_arr_key);
     	    
     	    if(i == 0){
     	    	alert("권한을 하나이상 선택하세요!");

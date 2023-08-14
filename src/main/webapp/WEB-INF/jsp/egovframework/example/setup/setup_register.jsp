@@ -28,11 +28,11 @@
                                 <input class="w180" type="text" name="store_id" id="store_id" >
                                 <!-- button type="button" class="overlap_check">중복확인</button-->
                             </td>
-                            <th>비밀번호</th>
+                            <th>비밀번호</th> 
                             <td>
                                 <input class="w180" type="password" name="passwd" id="passwd" >
                             </td>
-                        </tr>
+                        </tr> 
                         <tr>
                             <th>이름</th>
                             <td>
